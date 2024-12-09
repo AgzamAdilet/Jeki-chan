@@ -1,0 +1,118 @@
+ /* Негізгі стильдер */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-image: url(''); /* Артқы фон суреті */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+/* Шекара стильдері */
+.border-section {
+    border: 3px solid #000;
+}
+
+.border-dotted {
+    border-style: dotted;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.border-double {
+    border-style: double;
+}
+ 
+ .photo-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+    transform: scale(1.05);
+}
+ 
+
+
+
+.circle-photo {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid #000;
+    border-radius: 50%;
+    transition: transform 0.3s;
+
+}
+
+.rounded-photo {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid #000;
+    border-radius: 200%;
+    transition: transform 0.3s;
+}
+
+.half-rounded-photo {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid #000;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
