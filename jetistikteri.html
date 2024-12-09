@@ -1,0 +1,123 @@
+ <!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Джеки Чанның жетістіктері</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #555;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        .achievement {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+        }
+
+        .achievement h2 {
+            margin-top: 0;
+        }
+
+        .achievement p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        .to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Джеки Чанның жетістіктері</h1>
+    </header>
+    <nav>
+        <a href="#early">Ерте жетістіктері</a>
+        <a href="#movies">Кино мансабы</a>
+        <a href="#philanthropy">Қайырымдылығы</a>
+    </nav>
+    <div class="container">
+        <section class="achievement" id="early">
+            <h2>Ерте жетістіктері</h2>
+            <p>Джеки Чан Гонконг киноиндустриясында каскадер және жекпе-жек шебері ретінде мансабын бастады. Ол өзінің керемет физикалық қабілеттерімен және комедиялық шеберлігімен танымал болды.</p>
+        </section>
+        <section class="achievement" id="movies">
+            <h2>Кино мансабы</h2>
+            <p>Джеки Чан *Полиция тарихы*, *Шуақты сағат*, және *Мастера мас күйінде* сияқты әлемге әйгілі фильмдерде басты рөлдерді сомдады. Ол экшн-комедия жанрын әзіл-оспақты трюктермен үйлестіріп, жаңа деңгейге көтерді.</p>
+        </section>
+        <section class="achievement" id="philanthropy">
+            <h2>Қайырымдылығы</h2>
+            <p>Фильмдік мансабынан бөлек, Джеки Чан білім беру, апаттарға көмек және экологиялық мәселелерді қолдау мақсатында Джеки Чан қайырымдылық қорын құрған.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Джеки Чан Фан-Клубы</p>
+    </footer>
+    <button class="to-top" onclick="scrollToTop()">&uarr;</button>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
+

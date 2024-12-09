@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Джеки Чанның еңбектері</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(45deg, #0077b6, #00b4d8);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #00b4d8;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #caf0f8;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            line-height: 1.6;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: #0077b6;
+        }
+
+        footer {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            background-color: #00b4d8;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+        }
+
+        .back-to-top:hover {
+            background-color: #caf0f8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Джеки Чанның еңбектері</h1>
+    </header>
+    <nav>
+        <a href="#cinema">Кино саласы</a>
+        <a href="#martial">Жекпе-жек өнері</a>
+        <a href="#books">Кітаптары</a>
+    </nav>
+    <main class="content">
+        <section class="section" id="cinema">
+            <h2>Кино саласындағы еңбектері</h2>
+            <p>Джеки Чан көптеген танымал фильмдерде режиссер, продюсер және актер ретінде танылған. Оның шығармаларының ішінде *Шуақты сағат*, *Полицей оқиғасы*, және *Құтқарушы* сынды фильмдері бар.</p>
+        </section>
+        <section class="section" id="martial">
+            <h2>Жекпе-жек өнеріндегі үлесі</h2>
+            <p>Джеки Чан дәстүрлі жекпе-жек өнерін экшн-комедия жанрымен ұштастырып, жаңа стильді қалыптастырды. Оның ерекше каскадерлік қойылымдары мен қауіпті трюктері әлемге танымал.</p>
+        </section>
+        <section class="section" id="books">
+            <h2>Кітаптары мен шығармалары</h2>
+            <p>Джеки Чан өзінің өмір жолын баяндайтын бірнеше кітап жазған. Олардың ішінде ең танымалы – *Менің өмірім – каскадерлік оқиғаларым* атты автобиографиялық кітабы.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Джеки Чан Фан-Клубы. Барлық құқықтар қорғалған.</p>
+    </footer>
+    <button class="back-to-top" onclick="scrollToTop()">&uarr;</button>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
